@@ -18,8 +18,14 @@ app.get('/', (req, res ) =>{
 
 });
 
+app.post
+
 app.get('/users',(req,res)=>{
 res.send(users)
+})
+
+app.post('/users',(req, res) => {
+    console.log(req.body);
 })
 
 
