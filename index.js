@@ -24,7 +24,9 @@ app.get('/users',(req,res)=>{
 res.send(users)
 })
 
+//Create a post API on the Server side so that you can get the data
 app.post('/users',(req, res) => {
+    console.log('post api hitting')
     console.log(req.body);
 })
 
